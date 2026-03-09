@@ -1,5 +1,5 @@
 import React from "react";
-import "./footerSection.css";
+import "./FooterSection.css";
 
 // Icons Import Here
 import {
