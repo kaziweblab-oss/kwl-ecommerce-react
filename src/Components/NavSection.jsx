@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import "./navSection.css";
+import "./NavSection.css";
 import HomePage from "./HomePage";
 import ShopPage from "./ShopPage";
 import CartPage from "./CartPage";
@@ -10,7 +10,7 @@ import AboutUsPage from "./AboutUsPage";
 import { IoCartOutline } from "react-icons/io5";
 import { AiOutlineMenuFold } from "react-icons/ai";
 
-export default function navSection(props) {
+export default function NavSection(props) {
   const { isMenuOpen, menuHandelar, pageHandelar } = props;
 
   return (

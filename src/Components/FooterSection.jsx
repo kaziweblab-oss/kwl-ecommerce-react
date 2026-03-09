@@ -13,20 +13,20 @@ import {
 } from "react-icons/fa6";
 import { TbBrandFiverr } from "react-icons/tb";
 
-export default function footerSection() {
+export default function FooterSection() {
   return (
     <footer className="footerSection">
       <ul className="footer-icons">
         <div>
           <li>
-            <a href="tel:+01310050878" aria-label="phone" rel="noreferrer">
+            <a href="tel:+01310050878" aria-label="phone" rel="_noreferrer">
               <FaPhone className="icon" />
             </a>
           </li>
           <li>
             <a
               href="https://wa.me/+01310050878"
-              target="blank"
+              target="_blank"
               aria-label="WhatsApp"
               rel="noreferrer"
             >
@@ -41,7 +41,7 @@ export default function footerSection() {
           <li>
             <a
               href="https://www.facebook.com/profile.php?id=61585149398106"
-              target="blank"
+              target="_blank"
               aria-label="Facebook"
               rel="noreferrer"
             >
@@ -53,7 +53,7 @@ export default function footerSection() {
           <li>
             <a
               href="https://m.me/61585149398106"
-              target="blank"
+              target="_blank"
               aria-label="Send me a message on Messenger"
               rel="noreferrer"
             >
