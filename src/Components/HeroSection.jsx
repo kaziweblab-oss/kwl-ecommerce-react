@@ -15,7 +15,7 @@ export default function HeroSection(props) {
       </div>
       <div>
         <img
-          src="/Home-Hero-Section Pic.png"
+          src="/Home-Hero-Section-Pic.png"
           alt="Hero-Section-Image"
           className="hero-image"
         />
