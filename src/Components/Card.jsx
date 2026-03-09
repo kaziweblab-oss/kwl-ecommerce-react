@@ -1,12 +1,8 @@
 import React, { useState } from "react";
 
 import "./card.css";
-import CartPage from "./CartPage";
 
 export default function Card(props) {
-  // const handelClick = (e) => {
-  //   props.pageHandelar(CartPage);
-  // };
 
   return (
     <section className={`card ${props.class}`} /*onClick={handelClick}*/>

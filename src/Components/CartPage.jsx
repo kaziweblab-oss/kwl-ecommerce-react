@@ -26,7 +26,6 @@ export default function CartPage(props) {
         image={card.image}
         desc={card.description}
         btn={deleteCardBtn}
-        // pageHandelar={props.pageHandelar}
       />
     );
   });

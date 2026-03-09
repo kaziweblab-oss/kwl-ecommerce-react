@@ -1,6 +1,5 @@
 import React from "react";
 
-import Card from "./Card";
 import "./ShopPage.css";
 import Products from "./Products";
 import Filter from "./Filter";
