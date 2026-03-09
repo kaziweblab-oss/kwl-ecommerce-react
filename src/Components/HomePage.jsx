@@ -1,7 +1,7 @@
 import React from "react";
 
 import HeroSection from "./HeroSection";
-import FeaturedCatagory from "./FeaturedCatagory";
+import FeaturedCatagory from "./FeaturedCategory";
 
 export default function HomePage(props) {
   return (

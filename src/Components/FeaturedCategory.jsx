@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./FeaturedCatagory.css";
+import "./FeaturedCategory.css";
 import Card from "./Card";
 
 export default function FeaturedCatagory(props) {
