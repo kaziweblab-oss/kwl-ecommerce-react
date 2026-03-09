@@ -1,0 +1,117 @@
+.filter-section {
+  display: none;
+}
+
+.active {
+  display: block;
+  padding: 2rem;
+  margin-bottom: 5rem;
+  border: 2px solid rgb(68, 0, 255);
+  border-radius: 1rem;
+  box-shadow: 0 0 3px red;
+}
+
+.btn-section {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.filter-btn {
+  background-color: #2f4e98;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 0 3px rgb(133, 132, 132);
+  transition: 0.3s ease-in-out;
+  width: 30%;
+}
+
+.filter-btn:hover {
+  box-shadow: 0 0 3px 2px rgb(133, 132, 132);
+  transform: scale(1.03);
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.option input {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.prize-range {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  gap: 0.5rem;
+}
+
+.prize-range label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prize-range label span {
+  display: flex;
+  align-items: center;
+}
+
+.prize-range label div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.range {
+  width: 90%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+hr {
+  border: 1.5px solid rgb(156, 156, 156);
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 580px) {
+  .prize-range label div:nth-child(2) {
+    flex-direction: column;
+    text-align: right;
+  }
+  .prize-range label div:nth-child(2) span {
+    margin: auto auto 0 auto;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .btn-section {
+    display: none;
+  }
+
+  .active,
+  .filter-section {
+    width: 15rem;
+    padding: 2rem;
+    margin-bottom: 5rem;
+    border: 2px solid rgb(68, 0, 255);
+    border-radius: 1rem;
+    box-shadow: 0 0 3px red;
+    display: block;
+  }
+  .prize-range label {
+    flex-direction: column;
+  }
+  .prize-range label div:nth-child(2) {
+    width: 100%;
+  }
+}

@@ -1,0 +1,51 @@
+.card {
+  background-color: #fffffe;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 3px rgb(133, 132, 132);
+  cursor: pointer;
+  margin: 2rem 5%;
+}
+
+.cardHover:hover {
+  box-shadow: 0 0 3px 2px rgb(133, 132, 132);
+}
+
+.card-title {
+  text-align: center;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+
+.card-image {
+  height: 200px;
+  width: 80%;
+  object-fit: contain;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 1rem;
+}
+
+.card-price{
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+
+.card-desc{
+    font-size: 1.3rem;
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+@media screen and (min-width:628px) {
+    .card{
+        width: 45%;
+        flex: 1;
+    }
+    
+}

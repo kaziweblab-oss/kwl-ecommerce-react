@@ -1,0 +1,68 @@
+
+.footerSection{
+  background-color: black;
+  padding: 2rem 2rem 1px 2rem ;
+  border-radius: 1rem 1rem 0 0;
+}
+.footer-icons {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  box-sizing: border-box;
+}
+
+.footer-icons div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-icons div li {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.footer-icons div li:hover {
+  transform: scale(1.2);
+}
+
+.footer-icons div:nth-child(1) li:nth-child(1) a {
+  color: blue;
+}
+.footer-icons div:nth-child(1) li:nth-child(2) a {
+  color: green;
+}
+.footer-icons div:nth-child(1) li:nth-child(3) a {
+  color: rgb(218, 53, 24);
+}
+.footer-icons div:nth-child(1) li:nth-child(4) a {
+  color: blue;
+}
+.footer-icons div:nth-child(2) li:nth-child(1) a {
+  color: blue;
+}
+.footer-icons div:nth-child(2) li:nth-child(2) a {
+  color: red;
+}
+.footer-icons div:nth-child(2) li:nth-child(3) a {
+  color: blue;
+}
+
+.footer-icons div:nth-child(2) li:nth-child(4) a {
+  color: green;
+}
+
+.copyRight{
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 1000px) {
+  .footer-icons {
+    flex-direction: row;
+  }
+  .footer-icons div {
+    width: 50%;
+  }
+}

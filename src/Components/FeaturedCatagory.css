@@ -1,0 +1,23 @@
+.featured-section {
+  width: 80%;
+  margin: 0 auto 2rem auto;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3%;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-catagory-hr {
+  border: 1.5px solid rgb(156, 156, 156);
+  border-radius: 1rem;
+  width: 40%;
+  margin: -15px auto 1rem auto;
+}

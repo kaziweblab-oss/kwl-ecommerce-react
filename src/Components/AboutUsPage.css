@@ -1,0 +1,50 @@
+.about-us-section {
+  margin: 1rem 0;
+}
+
+.about-us-hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-us-hero-section div:nth-child(1) {
+  text-align: center;
+}
+
+.about-us-image {
+  width: 80%;
+  height: auto;
+  object-fit: fill;
+  border-radius: 1rem;
+  cursor: pointer;
+  box-shadow: 2px 3px 5px rgb(132, 132, 133);
+  margin: 2rem auto;
+}
+
+.about-us-image:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 5px rgb(132, 132, 133);
+}
+
+.about-me-desc,
+.about-project-desc {
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.about-us-title{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.about-us-title::after{
+    content: "";
+    display: block;
+    width: 50%;
+    border-radius: 1rem;
+    margin: 0.5rem auto;
+    height: 0.3rem;
+    background-color: rgb(72, 0, 255);
+}

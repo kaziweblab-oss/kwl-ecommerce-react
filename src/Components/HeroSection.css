@@ -1,0 +1,49 @@
+.hero-section {
+  display: flex;
+  width: 94%;
+  margin: 0.5rem auto;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.hero-desc button {
+  background-color: #2f4e98;
+  font-size: 1.5rem;
+  color: white;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  margin-top: 4rem;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 3px rgb(129, 159, 241);
+  cursor: pointer;
+}
+
+.hero-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-desc button:hover {
+  box-shadow: 4px 4px 5px rgb(129, 159, 241);
+}
+
+@media screen and (min-width: 780px) {
+  .hero-desc {
+    width: 50%;
+  }
+
+  .hero-image {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .heroDeshero-desc {
+    width: 80%;
+  }
+}
