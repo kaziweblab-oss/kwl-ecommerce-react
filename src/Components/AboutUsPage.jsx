@@ -22,7 +22,7 @@ export default function AboutUsPage() {
         <div className="about-us-hero-section">
           <div>
             <img
-              src="./Untitled-2.png"
+              src="./About-US-Page-Image.png"
               alt="developer pic"
               className="about-us-image"
             />
