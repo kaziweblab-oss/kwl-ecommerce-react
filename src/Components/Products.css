@@ -1,8 +1,7 @@
-
 .btn {
   background-color: #2f4e98;
   font-size: 1.5rem;
-  margin: 0 auto;
+  margin: auto auto 0.5rem auto;
   color: white;
   border: none;
   box-sizing: border-box;
@@ -18,6 +17,6 @@
   transform: scale(1.03);
 }
 
-.data-loading{
-  margin:0 auto auto auto;
+.data-loading {
+  margin: 0 auto auto auto;
 }
